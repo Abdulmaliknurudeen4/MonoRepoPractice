@@ -6,7 +6,8 @@
     "start-server": "node apps/server/server.js",
     "start-react": "npx nx serve react-collaborator --port=4100",
     "start-angular": "npx nx serve angular-editor",
-    "start-all": "concurrently \"npm run start-server\" \"npm run start-react\" \"npm run start-angular\""
+    "start-all": "concurrently \"npm run start-server\" \"npm run start-react\" \"npm run start-angular\"",
+    "start": "concurrently \"npm run start-server\" \"npm run start-react\" \"npm run start-angular\""
   },
   "private": true,
   "devDependencies": {
