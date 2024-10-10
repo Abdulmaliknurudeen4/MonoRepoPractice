@@ -26,9 +26,9 @@ collaborative-editor/
 ├── apps/
 │   ├── angular-editor/    # Angular application
 │   └── react-collaborator/# React application
+|   ├── server.js              # Socket.IO server
 ├── libs/                  # Shared libraries (if any)
 ├── tools/
-├── server.js              # Socket.IO server
 ├── nx.json
 ├── package.json
 ├── tsconfig.base.json
